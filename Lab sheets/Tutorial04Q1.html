@@ -1,0 +1,133 @@
+<html>
+<head>
+    <title>Registrationform</title>
+    <style>
+        table{
+            
+            outline: 2px solid black;
+            border: 1px;
+            text-align: left;
+            width: auto;
+            height: 50;
+        }
+    form
+    {   text-align: center; 
+        
+        }
+        
+        </style>
+    </head>
+    
+    <body>
+        <center>
+        <table >
+            <form name="test" method="post" action= "detail.php" ></form>
+            <tr>
+                <td colspan="2"><h3>Registration Form</h3></td>
+                
+            </tr>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="n"></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="ln"></td>
+            </tr>
+            <tr>
+                <td>Mobile Number:</td>
+                <td><input type="text" name="mn"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" name="gen" value="M">Male
+                    <input type="radio" name="gen" value="F">Female</td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="em"></td>
+            </tr>
+            <tr>
+                <td>Favourite Music:</td>
+                <td><input type="checkbox" name="p">POP
+                    <input type="checkbox" name="R">Rock
+                    <input type="checkbox" name="o">Other</td>
+            </tr>
+            <tr>
+                <td>Additional Details:</td>
+                <td><textarea id="message" name="message" rows="4" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" name="a">I agree to the terms and condition</td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="sub" value="Submit"></td>
+                <td><input type="Reset" name="res" value="Reset"> </td>
+            </tr>
+        </table>
+        </center>
+
+            <br>
+            <br>
+            <center>
+            <table >
+                <form name="car" method="post" action= "detail1.php" ></form>
+                <tr>
+                    <td colspan="2"><h3>Car Registration</h3></td>
+                    
+                </tr>
+                <tr>
+                    <td>Owner Name:</td>
+                    <td><input type="text" name="n" placeholder="Owner Name"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" name="ema" placeholder="Email"></td>
+                </tr>
+                <tr>
+                    <td>phone<br> Number:</td>
+                    <td><input type="text" name="tel" placeholder="Phone Number"></td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td><select name="cou">
+                        <option value="s">Sri Lanka </option>
+                        <option value="c">Caneda</option>
+                        <option value="a">America </option>
+                        <option value="i">India </option>
+                        <option value="j">Japan</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Manufacture<br>year:</td>
+                    <td><select name="cou">
+                        <option value="a"> 2000 </option>
+                        <option value="b">2001</option>
+                        <option value="f">2002 </option>
+                        <option value="r">2003 </option>
+                        <option value="e">2004</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Transmission:</td>
+                    <td><input type="radio" name="t">Manual
+                        <input type="radio" name="t">Auto
+                        
+                </tr>
+                <tr>
+                    <td>Other:</td>
+                    <td><textarea id="message" name="message" rows="4" required></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="checkbox" name="a">I agree to the terms and condition</td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="sub" value="Submit"></td>
+                    <td><input type="Reset" name="res" value="Reset"> </td>
+                </tr>
+            </table>
+            </center>
+        
+    </body>
+
+</html>

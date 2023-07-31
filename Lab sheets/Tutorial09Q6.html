@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <script>
+        function x(){
+          var input= window.confirm("Are you sure you wanna visit Google");
+          if(input)
+          {
+           window.location.href = "https://www.google.com/";
+          }
+          else{
+           window.alert("You decided to stay");
+          }
+           
+        }
+   </script>
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" name="btn" value="google" onclick="x()">
+</body>
+</html>
